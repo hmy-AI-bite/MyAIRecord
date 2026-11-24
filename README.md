@@ -2,7 +2,7 @@
 
 让新会话中的 AI 了解我的学习、目标、项目和协作要求，减少重复解释，并保存可核查的经验。
 
-**本版已纳入可访问历史聊天的脱敏摘要。** 2026-11-24 读取工具本次列出的 49 个其他聊天、204 个轮次，另结合当前对话；覆盖与限制见 [SOURCES.md](SOURCES.md)。这不是全账号历史导出，也不会让所有 AI 自动拥有长期记忆。
+**本版已纳入可访问历史聊天的脱敏摘要。** 2026-11-24 分两轮读取：第一轮逐轮读 49 个聊天、204 个轮次（见 [SOURCES.md](SOURCES.md)）；第二轮把会话清单分页读完，共 133 场，日期从 2025-01-31 到 2026-11-24，按时间与领域重新归纳（见 [CONVERSATIONS.md](CONVERSATIONS.md) 与 [TOPICS.md](TOPICS.md)）。这不是全账号逐字导出，附件正文未读取，也不会让所有 AI 自动拥有长期记忆。
 
 ## 使用方法
 
@@ -19,7 +19,9 @@
 | 英语、编程、数学与模型学习 | [records/learning.md](records/learning.md) |
 | 写作、代码与交付方式 | [records/work-style.md](records/work-style.md) |
 | 兴趣、工具与阶段计划 | [records/interests-and-plans.md](records/interests-and-plans.md) |
-| 四个项目的职责、进展、待核实事项 | [projects/README.md](projects/README.md) |
+| 跨年主题综述：事实、要求与未结事项 | [TOPICS.md](TOPICS.md) |
+| 133 场对话的时间线与主题分布 | [CONVERSATIONS.md](CONVERSATIONS.md) |
+| 九个项目的职责、进展、待核实事项 | [projects/README.md](projects/README.md) |
 | AI 使用方式、能力边界与历史纠错 | [AI_COLLABORATION.md](AI_COLLABORATION.md) |
 | 来源索引、读取数量与覆盖限制 | [SOURCES.md](SOURCES.md) |
 | 公开范围与隐私排除 | [PRIVACY_AND_SCOPE.md](PRIVACY_AND_SCOPE.md) |

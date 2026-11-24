@@ -7,6 +7,7 @@
 
 先读 PROFILE.md；需要理解与 AI 的协作方式时读 AI_COLLABORATION.md。
 再按当前任务选择 projects/ 或 records/ 的相关文件。核对事实时查 SOURCES.md。
+需要了解跨年份的习惯与项目脉络时，读 TOPICS.md；需要按时间找某类对话时读 CONVERSATIONS.md，不必全量加载。
 不要无差别加载全部历史；读取隐私边界时看 PRIVACY_AND_SCOPE.md。
 
 要求：
