@@ -1,13 +1,23 @@
 # 档案变更记录
 
+## 2026-11-24 · 全量清单复盘（第二轮）
+
+- 会话清单分页读到接口不再返回，共 133 场，日期 2025-01-31 至 2026-11-24；上一轮只覆盖其中 49 场、11-06 之后，本轮补上更早一年多的部分。
+- 新增 [CONVERSATIONS.md](CONVERSATIONS.md)：按年月的时间线与主题分布、阶段特征；不保存聊天 ID、原始标题与私有路径。
+- 新增 [TOPICS.md](TOPICS.md)：七个领域的跨年综述，写事实、反复出现的要求、未结事项，并标明哪些是历史记录、哪些待复查。
+- 新增五个项目记录：[德国申请](projects/germany-application.md)、[雅思备考](projects/ielts-plan.md)、[纹样数据集](projects/pattern-dataset.md)、[纹样工作台](projects/pattern-studio.md)、[小说《燃火》](projects/novel-fireside.md)。
+- 更新项目索引与 README 导航；在 SOURCES.md 修正上一轮"列表接口没有分页"的判断。
+- 隐私口径不变：学校名、分数、成绩、预算、路径、联系人与联系方式、账户权益、网络配置、私人情绪与关系一律不写入；本轮按同一口径重写了新增文件。
+
 ## 2026-11-24 · 本机桌面会话补充（L 系列）
 
 - 读取本机 DeepSeek Harness 桌面版的 35 个会话文件（21 个含真实对话），时间跨度 10-23 至 11-24，方法见 [conversations/README.md](conversations/README.md)。
-- 新增 [conversations/sessions.md](conversations/sessions.md)：21 条逐会话记录，含起点、过程、结论与遗留。
-- 项目记录从 4 个扩到 9 个：新增桌宠、前端设计工具包、留学申请、课程作业、本机环境；原有 4 个各补一节"本机会话技术记录"（提交号、指标、当时判断）。
+- 新增 [conversations/sessions.md](conversations/sessions.md)：21 条逐会话记录，含起点、过程、结论与遗留，侧重提交号、指标与文件级证据。
+- 项目记录补充四个：[桌宠](projects/deskpet.md)、[前端设计工具包](projects/frontend-design-kit.md)、[课程作业](projects/ai-math-coursework.md)、[本机环境与网络](projects/dev-environment.md)；另有四个项目各加一节"本机会话技术记录"。
 - 核心档案新增"项目与技术事实"一节（L01—L10），与 S 系列的行为证据分开标注。
-- 来源索引新增 L 系列说明；README 增加两份记录的配合用法。
+- 来源索引新增 L 系列说明；README 增加三份记录的配合用法。
 - 未写入：姓名、学号、学校、聊天文件路径、密钥、对话原文；会话原文只在本机解析，未上传。
+- 与第二轮合并时按主题去重：德国申请、纹样工作台/数据集各并成一份，保留对方新增的时间线与主题纪要。
 
 ## 2026-11-24 · 历史聊天补全
 

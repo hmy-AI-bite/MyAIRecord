@@ -5,15 +5,19 @@
 | 项目 | 用户职责或关注点 | 最近来源 | 详细记录 |
 | --- | --- | --- | --- |
 | 自行车违停检测 | 模型训练、图片优先、停车区与越界判定 | 11-23 | [项目档案](bicycle.md) |
-| 文物纹样线稿系统 | 线稿提取定位、数据预处理、申报与答辩 | 11-22 | [项目档案](heritage.md) |
+| 文物纹样线稿系统 | 线稿提取定位、申报与答辩 | 11-22 | [项目档案](heritage.md) |
+| 丝绸纹样数据集 | 十个方向、配色变体、生成规格 | 11-07 | [项目档案](pattern-dataset.md) |
+| 纹样工作台界面与演示片 | 视觉规范、演示片剪辑、导出链路 | 11-14 | [项目档案](pattern-studio.md) |
 | Java 课程项目 | 后端、SQLite 服务端、接口兼容与提交 | 11-23 | [项目档案](java.md) |
 | 星环算力调度 | 参考分析、实现迭代、评测与报告 | 11-21 | [项目档案](scheduler.md) |
+| 德国计算机硕士申请 | 院校条款对照、审核流程、学分匹配 | 11-20 | [项目档案](germany-application.md) |
+| 雅思备考 | 长期计划、板块练习、写作口语补强 | 11-20 | [项目档案](ielts-plan.md) |
+| 长篇小说《燃火》 | 三系设定、暴露节奏、心理线 | 10-21 | [项目档案](novel-fireside.md) |
 | Windows 桌宠 | 需求、交互与素材对齐（本机记录） | 10-24 | [项目档案](deskpet.md) |
 | 前端设计工具包 | 可复用设计流程与验证脚本（本机记录） | 11-06 | [项目档案](frontend-design-kit.md) |
-| 德国硕士申请 | 院校对照、语言与学分卡点（本机记录） | 11-20 | [项目档案](germany-application.md) |
 | 课程作业 | AI 数学实验二、C++ 练习（本机记录） | 11-21 | [项目档案](ai-math-coursework.md) |
 | 本机环境与网络 | 硬盘权限、TypeWords、网络排障（本机记录） | 11-22 | [项目档案](dev-environment.md) |
 
-职责与完成状态按项目分别记录；这里不是履历认证，也不证明所有任务今天仍在进行。新增项目可复制 [项目模板](../templates/project.md)。
+职责与完成状态按项目分别记录；这里不是履历认证，也不证明所有任务今天仍在进行。纹样相关的三份记录（文物纹样、数据集、工作台）分工不同：申报口径、数据规格、界面与演示各一份。新增项目可复制 [项目模板](../templates/project.md)。
 
-历史会话的逐条记录在 [conversations/sessions.md](../conversations/sessions.md)，方法与边界在 [conversations/README.md](../conversations/README.md)。
+历史会话有两份索引：[CONVERSATIONS.md](../CONVERSATIONS.md) 按年月覆盖 133 场对话清单；[conversations/sessions.md](../conversations/sessions.md) 是本机桌面版 21 个会话的逐条技术记录，方法与边界见 [conversations/README.md](../conversations/README.md)。
