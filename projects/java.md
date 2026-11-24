@@ -22,3 +22,18 @@
 - 补中文注释、测试和前端控制器联调，并报告已提交推送。
 
 这些是 S07 中的历史完成报告，不代表本次审查或最新版本；不重复旧测试数量作为当前证明。后续需先确认分支、课程要求与前端协议。没有证据证明最终验收或答辩已完成。
+
+## 本机会话中的技术记录（11-18 至 11-19）
+
+来源：本机桌面会话 L05，日期为 UTC+8。
+
+- 先检查本机环境是否满足项目，再逐项说明现有功能由哪些类/脚本实现。
+- 补 README（启动方式、现有功能、待完善）与 .gitignore 并推到 GitHub。
+- 按两人三周、每人约 4 h/周拆分工作量，明确本人负责后端，并列出"只有我改""只有对方改""一起改"的脚本。
+- 服务端收口：删 `ProductDataServer.java`、`Handler.java`、`DataAccessor.java`、`ProductDataAccessor.java` 与旧 `bin/`，只保留 `com.ascent.server.ServerMain` 入口，提交 `7b2b35b`。
+- 验证：`mvn clean package` 通过，10 个 JUnit 全部通过，旧客户端单独 `javac` 通过。
+- 保留：`common / server / service / dao / db`（SQLite、PBKDF2、协议分发、数据迁移、JUnit），`product.db`、`user.db` 作为首次启动的迁移输入。
+
+### 答辩风险的处理
+
+本课没讲过 SQLite/JDBC，担心被追问。做法是不删库（删了会丢已做的工作），而是把"要会多少"压到最小：6 类 SQL（建表、登录查询、注册插入、分类搜索、库存扣减、下单写入）+ JDBC 五步，并能解释事务为什么用 `stock >= ?` 条件更新。
