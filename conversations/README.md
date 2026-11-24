@@ -20,6 +20,7 @@
 
 ## 边界
 
+- 与 [README](../README.md) 提到的另外两份来源不同：S 系列（逐轮摘要，11-06 起）和 [CONVERSATIONS.md](../CONVERSATIONS.md)（133 场清单的时间线）偏行为、职责与阶段脉络，这里偏工程细节与提交记录，三份可互为校验。
 - 只覆盖这台电脑上 DSH Desktop 的会话。Claude、Copilot、Codex、豆包和网页版的对话没有读取，因此这里的记录不是全部聊天，只是可离线核对的那一部分。
 - 姓名、学号、学校、微信文件路径等可识别信息已删除或不写入。原文里出现过的身份信息不复制进仓库。
 - 对话里的 AI 结论是当时的输出，不等于已经验证的事实；数字和判断以对应项目文件的说明为准。
@@ -28,10 +29,10 @@
 
 | 时间 | 主题 | 主要产出 | 详见 |
 | --- | --- | --- | --- |
-| 2026-10-23 ~ 10-25 | 文物数据集流水线审查、SAM2 接入 Label Studio | 规范化的数据层、一键脚本、SAM2 预标注 223 个候选 | [CV 数据集流水线](../projects/heritage.md) |
+| 2026-10-23 ~ 10-25 | 文物数据集流水线审查、SAM2 接入 Label Studio | 规范化的数据层、一键脚本、SAM2 预标注 223 个候选 | [文物纹样](../projects/heritage.md) · [纹样数据集](../projects/pattern-dataset.md) |
 | 2026-10-24 | Windows 桌宠：喂食、抚摸、好感度、侧边悬挂 | 可运行的桌宠 + 13 段动画 + 自检脚本 | [桌宠](../projects/deskpet.md) |
 | 2026-11-01 | 人工智能数学基础实验二：矩阵相似度电影推荐 | 教学代码 + 14 页实验报告（DOCX/PDF） | [AI 数学课程作业](../projects/ai-math-coursework.md) |
-| 2026-11-01 ~ 11-04 | Pattern Studio 仓库梳理、UI 骨架与玻璃主题 | React 骨架、handover 文档、`205566c` 主题提交 | [Pattern Studio](../projects/heritage.md) |
+| 2026-11-01 ~ 11-04 | Pattern Studio 仓库梳理、UI 骨架与玻璃主题 | React 骨架、handover 文档、`205566c` 主题提交 | [文物纹样](../projects/heritage.md) · [工作台](../projects/pattern-studio.md) |
 | 2026-11-02 | 机械硬盘写入权限、TypeWords 安装与雅思词库 | 桌面一键启动器、3575 词雅思词库 | [本机环境与网络](../projects/dev-environment.md) |
 | 2026-11-04 ~ 11-22 | DSH Desktop 维修、插件与网络排障 | 定位 hosts 污染与路由抢占，恢复校园网 | [本机环境与网络](../projects/dev-environment.md) |
 | 2026-11-05 ~ 11-13 | 自行车越界检测（YOLO + 掩膜 + 场景匹配） | 新仓库、335 框数据集、九章报告 + 12 页 PPT 大纲 | [自行车越界检测](../projects/bicycle.md) |

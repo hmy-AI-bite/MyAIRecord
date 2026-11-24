@@ -12,7 +12,7 @@
 ## 2026-11-24 · 本机桌面会话补充（L 系列）
 
 - 读取本机 DeepSeek Harness 桌面版的 35 个会话文件（21 个含真实对话），时间跨度 10-23 至 11-24，方法见 [conversations/README.md](conversations/README.md)。
-- 新增 [conversations/sessions.md](conversations/sessions.md)：21 条逐会话记录，含起点、过程、结论与遗留，侧重提交号、指标与文件级证据。
+- 新增 [conversations/sessions.md](conversations/sessions.md)：21 个会话的逐条记录（同一主题的子会话合并叙述，共 17 条），含起点、过程、结论与遗留，侧重提交号、指标与文件级证据。
 - 项目记录补充四个：[桌宠](projects/deskpet.md)、[前端设计工具包](projects/frontend-design-kit.md)、[课程作业](projects/ai-math-coursework.md)、[本机环境与网络](projects/dev-environment.md)；另有四个项目各加一节"本机会话技术记录"。
 - 核心档案新增"项目与技术事实"一节（L01—L10），与 S 系列的行为证据分开标注。
 - 来源索引新增 L 系列说明；README 增加三份记录的配合用法。
