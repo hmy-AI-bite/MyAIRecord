@@ -1,31 +1,34 @@
 # MyAIRecord · 我的个人 AI 档案
 
-让不同 AI 在新会话中快速理解我的目标、协作方式和项目进展，并把有用的经验保留下来。
+让新会话中的 AI 了解我的学习、目标、项目和协作要求，减少重复解释，并保存可核查的经验。
 
-这里的“档案”是我可以检查和修改的上下文资料。它不代表 AI 已自动获得长期记忆，也不保证任何产品会自动读取本仓库。
+**本版已纳入可访问历史聊天的脱敏摘要。** 2026-11-24 读取工具本次列出的 49 个其他聊天、204 个轮次，另结合当前对话；覆盖与限制见 [SOURCES.md](SOURCES.md)。这不是全账号历史导出，也不会让所有 AI 自动拥有长期记忆。
 
-## 从这里开始
+## 使用方法
 
-1. 阅读 [个人档案](PROFILE.md)，纠正已有信息，补充愿意提供的内容。
-2. 新会话时粘贴 [启动提示词](prompts/start.md)，同时提供 PROFILE.md 和相关项目记录。
-3. 任务结束时使用 [更新提示词](prompts/update.md)，整理值得保留的变化。
-4. 新项目复制 [项目模板](templates/project.md)，完成或放弃后标记状态。
+1. 新会话提供 [PROFILE.md](PROFILE.md)，粘贴 [启动提示词](prompts/start.md)。
+2. 做具体任务时再提供对应 [项目](projects/README.md) 或学习记录。
+3. 任务结束用 [更新提示词](prompts/update.md)整理增量，保留来源和日期。
+4. 定期纠正过期内容，保持核心档案简短。
 
-## 文件导航
+## 档案导航
 
-| 文件 | 用途 |
+| 内容 | 文件 |
 | --- | --- |
-| [PROFILE.md](PROFILE.md) | 简短、相对稳定的个人背景和已确认偏好 |
-| [BUILD_GUIDE.md](BUILD_GUIDE.md) | 建设方法、维护规则和调研来源 |
-| [prompts/start.md](prompts/start.md) | 给新 AI 的启动提示词 |
-| [prompts/update.md](prompts/update.md) | 从对话中提取、校正和更新档案 |
-| [templates/project.md](templates/project.md) | 保存项目状态和下一步 |
-| [CHANGELOG.md](CHANGELOG.md) | 档案的变更历史 |
+| 核心认识与协作要求 | [PROFILE.md](PROFILE.md) |
+| 英语、编程、数学与模型学习 | [records/learning.md](records/learning.md) |
+| 写作、代码与交付方式 | [records/work-style.md](records/work-style.md) |
+| 兴趣、工具与阶段计划 | [records/interests-and-plans.md](records/interests-and-plans.md) |
+| 四个项目的职责、进展、待核实事项 | [projects/README.md](projects/README.md) |
+| AI 使用方式、能力边界与历史纠错 | [AI_COLLABORATION.md](AI_COLLABORATION.md) |
+| 来源索引、读取数量与覆盖限制 | [SOURCES.md](SOURCES.md) |
+| 公开范围与隐私排除 | [PRIVACY_AND_SCOPE.md](PRIVACY_AND_SCOPE.md) |
+| 建设方法与外部调研 | [BUILD_GUIDE.md](BUILD_GUIDE.md) |
+| 启动／更新提示词 | [start](prompts/start.md) · [update](prompts/update.md) |
+| 新项目模板与变更记录 | [template](templates/project.md) · [changelog](CHANGELOG.md) |
 
-## 日常用法
+## 读档原则
 
-开始任务只提供核心档案和有关项目。结束任务记录成果、重要决定、未解决问题和下一步。每月检查一次过期目标、矛盾信息与重复内容。
+用户明确表达、观察归纳、历史助手报告、建议和未知项分别标注。这里记录“曾说过／曾做过”的依据，不把当时的阶段状态变成永久画像，也不把旧助手报告当作新验证。
 
-本仓库当前公开，内容任何人都可能读取。个人信息由我决定是否保存；不保存密码、API 密钥、详细身份信息或未经同意的他人隐私。需要保存私人内容时，应使用单独的私有存储。
-
-初版日期：2026-11-24。初版只依据本次对话，未读取其他聊天记录或个人资料。
+本仓库公开，只保存适合公开的摘要。未上传原始聊天、私人附件、身份、成绩、财务、账户、私人生活与他人信息。具体规则见公开范围文档。
